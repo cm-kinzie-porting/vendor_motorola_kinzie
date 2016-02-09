@@ -21,17 +21,15 @@ $(call inherit-product, vendor/motorola/kinzie/kinzie-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
-    ims \
     MotGeoFenceSvc \
+    MotoSignatureApp \
     TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
     cneapiclient \
     com.motorola.motosignature \
-    com.qti.dpmframework \
     com.quicinc.cne \
-    dpmapi \
     org.simalliance.openmobileapi \
     qcnvitems \
     qcrilhook

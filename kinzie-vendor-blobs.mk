@@ -95,18 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
     vendor/motorola/kinzie/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/etc/firmware/left.tfa9890_ringtone_table.preset \
     vendor/motorola/kinzie/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890.music.config:system/etc/firmware/right.tfa9890.music.config \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890.music.eq:system/etc/firmware/right.tfa9890.music.eq \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890.ringtone.config:system/etc/firmware/right.tfa9890.ringtone.config \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890.ringtone.eq:system/etc/firmware/right.tfa9890.ringtone.eq \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890.speaker:system/etc/firmware/right.tfa9890.speaker \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890.voice.config:system/etc/firmware/right.tfa9890.voice.config \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890.voice.eq:system/etc/firmware/right.tfa9890.voice.eq \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890_music_table.preset:system/etc/firmware/right.tfa9890_music_table.preset \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890_n1b12.patch:system/etc/firmware/right.tfa9890_n1b12.patch \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890_n1c2.patch:system/etc/firmware/right.tfa9890_n1c2.patch \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890_ringtone_table.preset:system/etc/firmware/right.tfa9890_ringtone_table.preset \
-    vendor/motorola/kinzie/proprietary/etc/firmware/right.tfa9890_voice_table.preset:system/etc/firmware/right.tfa9890_voice_table.preset \
     vendor/motorola/kinzie/proprietary/etc/firmware/vrgain.bin:system/etc/firmware/vrgain.bin \
     vendor/motorola/kinzie/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/kinzie/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -180,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_ihist_stats46.so:system/vendor/lib/libmmcamera_isp_ihist_stats46.so \
-    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:system/vendor/lib/libmmcamera_isp_luma_adaptation40.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_rs_stats46.so:system/vendor/lib/libmmcamera_isp_rs_stats46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder46.so:system/vendor/lib/libmmcamera_isp_scaler_encoder46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so \
@@ -322,7 +309,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/motorola/kinzie/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/motorola/kinzie/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/motorola/kinzie/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/kinzie/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/kinzie/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -558,7 +544,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/etc/permissions/com.motorola.hw.sensorhub.xml:system/etc/permissions/com.motorola.hw.sensorhub.xml \
     vendor/motorola/kinzie/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/kinzie/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/motorola/kinzie/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/motorola/kinzie/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/motorola/kinzie/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/motorola/kinzie/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -576,8 +561,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/kinzie/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/motorola/kinzie/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
-    vendor/motorola/kinzie/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/motorola/kinzie/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/motorola/kinzie/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
@@ -594,7 +577,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/motorola/kinzie/proprietary/etc/firmware/synaptics-s3528-15070602-1def27-kinzie.tdat:system/etc/firmware/synaptics-s3528-15070602-1def27-kinzie.tdat \
     vendor/motorola/kinzie/proprietary/etc/firmware/synaptics-s3528ks-14102100-1a96a7-kinzie.tdat:system/etc/firmware/synaptics-s3528ks-14102100-1a96a7-kinzie.tdat \
-    vendor/motorola/kinzie/proprietary//etc/firmware/synaptics-s3528ks2-15070602-1def27-kinzie.tdat:system//etc/firmware/synaptics-s3528ks2-15070602-1def27-kinzie.tdat \
+    vendor/motorola/kinzie/proprietary/etc/firmware/synaptics-s3528ks2-15070602-1def27-kinzie.tdat:system/etc/firmware/synaptics-s3528ks2-15070602-1def27-kinzie.tdat \
     vendor/motorola/kinzie/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/motorola/kinzie/proprietary/bin/motosh:system/bin/motosh \
@@ -652,8 +635,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/motorola/kinzie/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/kinzie/proprietary/bin/ssr_diag:system/bin/ssr_diag \
-    vendor/motorola/kinzie/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-    vendor/motorola/kinzie/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/motorola/kinzie/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/motorola/kinzie/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/motorola/kinzie/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/motorola/kinzie/proprietary/bin/ssr_setup:system/bin/ssr_setup
