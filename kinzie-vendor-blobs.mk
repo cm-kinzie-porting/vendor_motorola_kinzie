@@ -374,6 +374,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/kinzie/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/motorola/kinzie/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/motorola/kinzie/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/motorola/kinzie/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/motorola/kinzie/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/motorola/kinzie/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/kinzie/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/motorola/kinzie/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/motorola/kinzie/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
