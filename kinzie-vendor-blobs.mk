@@ -639,4 +639,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/motorola/kinzie/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/kinzie/proprietary/bin/ssr_diag:system/bin/ssr_diag \
-    vendor/motorola/kinzie/proprietary/bin/ssr_setup:system/bin/ssr_setup
+    vendor/motorola/kinzie/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+    vendor/motorola/kinzie/proprietary/etc/izat.conf:system/etc/izat.conf 
