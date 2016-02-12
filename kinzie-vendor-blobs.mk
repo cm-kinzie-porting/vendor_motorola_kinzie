@@ -162,14 +162,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_bg_stats46.so:system/vendor/lib/libmmcamera_isp_bg_stats46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_color_xform_video46.so:system/vendor/lib/libmmcamera_isp_color_xform_video46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_cs_stats46.so:system/vendor/lib/libmmcamera_isp_cs_stats46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_bf_scale_stats46.so:system/vendor/lib/libmmcamera_isp_bf_scale_stats46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_clf46.so:system/vendor/lib/libmmcamera_isp_clf46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_fovcrop_video46.so:system/vendor/lib/libmmcamera_isp_fovcrop_video46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_ihist_stats46.so:system/vendor/lib/libmmcamera_isp_ihist_stats46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_rs_stats46.so:system/vendor/lib/libmmcamera_isp_rs_stats46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder46.so:system/vendor/lib/libmmcamera_isp_scaler_encoder46.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_scaler_video46.so:system/vendor/lib/libmmcamera_isp_scaler_video46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_wb46.so:system/vendor/lib/libmmcamera_isp_wb46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_mot_imx230.so:system/vendor/lib/libmmcamera_mot_imx230.so \
@@ -206,6 +209,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_abf44.so:system/vendor/lib/libmmcamera_isp_abf44.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_gic46.so:system/vendor/lib/libmmcamera_isp_gic46.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_gtm46.so:system/vendor/lib/libmmcamera_isp_gtm46.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_hdr46.so:system/vendor/lib/libmmcamera_isp_hdr46.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_hdr_be_stats46.so:system/vendor/lib/libmmcamera_isp_hdr_be_stats46.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
+    vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_pedestal_correct46.so:system/vendor/lib/libmmcamera_isp_pedestal_correct46.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/motorola/kinzie/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
@@ -351,6 +360,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/kinzie/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/kinzie/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/motorola/kinzie/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/kinzie/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/kinzie/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/motorola/kinzie/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -640,4 +650,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/kinzie/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/motorola/kinzie/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-    vendor/motorola/kinzie/proprietary/etc/izat.conf:system/etc/izat.conf 
+    vendor/motorola/kinzie/proprietary/etc/:system/etc/
